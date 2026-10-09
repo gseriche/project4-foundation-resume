@@ -1,0 +1,152 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Gonzalo Seriche</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="cell">
+            <h1>Gonzalo Seriche</h1>
+            <p class="tagline">Cloud &amp; Platform Engineer</p>
+            <nav>
+              <ul class="menu align-center">
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid-container">
+      <section id="summary" class="grid-x grid-padding-x">
+        <div class="medium-8 cell">
+          <h2>Summary</h2>
+          <p>
+            I design, run and troubleshoot cloud infrastructure. My work
+            covers Kubernetes on Google Cloud, GitOps delivery and
+            observability, and I also support enterprise workloads on AWS.
+          </p>
+          <p>
+            Find my course code on
+            <a href="https://github.com/gseriche">GitHub</a>.
+          </p>
+        </div>
+        <div class="medium-4 cell">
+          <div class="callout resume-callout">
+            <h3>At a glance</h3>
+            <ul>
+              <li>Kubernetes on GKE</li>
+              <li>GitOps with ArgoCD</li>
+              <li>Metrics and logs with Grafana</li>
+              <li>AWS container support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="grid-x grid-padding-x">
+        <div class="cell">
+          <h2>Experience</h2>
+        </div>
+        <div class="medium-6 cell">
+          <div class="callout resume-callout">
+            <h3>Senior DevOps / Infrastructure Engineer</h3>
+            <p class="employer">Shoplift</p>
+            <p>
+              I operate production, development and platform clusters on
+              Google Kubernetes Engine, keep deployments in sync through
+              GitOps, and manage secrets from a central store.
+            </p>
+          </div>
+        </div>
+        <div class="medium-6 cell">
+          <div class="callout resume-callout">
+            <h3>Cloud Support Engineer</h3>
+            <p class="employer">CR Software</p>
+            <p>
+              I support enterprise customers on AWS container services,
+              including thread dump analysis on ECS nodes to find slow or
+              stuck Java processes.
+            </p>
+          </div>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <figure>
+            <img src="images/gitops-flow.svg" alt="Flow diagram: Git repository, ArgoCD, then the Kubernetes cluster">
+            <figcaption>How a change reaches production: Git, ArgoCD, cluster.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="skills" class="grid-x grid-padding-x">
+        <div class="cell">
+          <h2>Skills</h2>
+        </div>
+        <div class="medium-6 cell">
+          <figure>
+            <img src="images/gke-clusters.svg" alt="Diagram of three Kubernetes clusters: production, development and devops">
+            <figcaption>Three clusters, three purposes.</figcaption>
+          </figure>
+        </div>
+        <div class="medium-6 cell">
+          <figure>
+            <img src="images/observability.svg" alt="Diagram: applications send metrics to Mimir and logs to Loki, both shown in Grafana">
+            <figcaption>Metrics and logs in one place.</figcaption>
+          </figure>
+        </div>
+        <div class="cell">
+          <dl>
+            <dt>Platforms</dt>
+            <dd>Google Kubernetes Engine, Amazon ECS</dd>
+            <dt>Delivery</dt>
+            <dd>ArgoCD, GitHub Actions</dd>
+            <dt>Secrets</dt>
+            <dd>External Secrets Operator, Google Secret Manager</dd>
+            <dt>Observability</dt>
+            <dd>Grafana, Mimir, Loki</dd>
+          </dl>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <figure>
+            <video controls preload="metadata" width="640" height="360">
+              <source src="media/pipeline-loop.mp4" type="video/mp4">
+              Your browser does not support the video element.
+            </video>
+            <figcaption>An ambient loop in the site palette.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="education" class="grid-x grid-padding-x">
+        <div class="cell">
+          <h2>Education</h2>
+          <div class="callout resume-callout">
+            <h3>Fundamentals of Web Development</h3>
+            <p class="employer">Illinois Institute of Technology, in progress</p>
+            <p>HTML, CSS, JavaScript and the Foundation framework.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Gonzalo Seriche. Project 4: Foundation Formation.</p>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
