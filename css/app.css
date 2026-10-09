@@ -1,0 +1,135 @@
+/* Palette inspired by terralithlabs.com: deep navy, ocean blue, cool off-white */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+:root {
+  --navy-900: #0a0f1d;
+  --navy-700: #14213d;
+  --primary: #1d3b73;
+  --accent: #3b73c9;
+  --accent-light: #8fb3ea;
+  --background: #f8f9fb;
+  --muted: #eceff4;
+  --muted-text: #4a5568;
+  --border: #d5dbe6;
+}
+
+/* Native browser font for body text */
+body {
+  background-color: var(--background);
+  color: #0f1626;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Imported font for headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: var(--primary);
+}
+
+/* Style element 1: dark header band */
+.site-header {
+  background-color: var(--navy-900);
+  padding: 2.5rem 0 1rem;
+  text-align: center;
+  border-bottom: 4px solid var(--accent);
+}
+
+.site-header h1 {
+  color: var(--background);
+}
+
+.tagline {
+  color: var(--accent-light);
+  font-size: 1.125rem;
+}
+
+/* Style element 2: centered horizontal navigation */
+.site-header .menu a {
+  color: var(--background);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.875rem;
+  border-radius: 2em;
+}
+
+.site-header .menu a:hover,
+.site-header .menu a:focus {
+  background-color: var(--accent);
+}
+
+/* Style element 3: content links */
+main a {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+main a:hover,
+main a:focus {
+  color: var(--primary);
+}
+
+main section {
+  margin: 2.5rem 0;
+}
+
+/* Style element 4: cards and figures with rounded corners */
+.resume-callout {
+  background-color: var(--muted);
+  border: 0;
+  border-left: 5px solid var(--accent);
+  border-radius: 0.5rem;
+}
+
+.employer {
+  color: var(--muted-text);
+  font-weight: bold;
+}
+
+figure {
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 1rem rgba(10, 15, 29, 0.12);
+  overflow: hidden;
+  margin: 0 0 1.5rem;
+}
+
+figure img,
+figure video {
+  width: 100%;
+}
+
+figcaption {
+  padding: 0.75em 1em;
+  font-size: 0.9rem;
+  color: var(--muted-text);
+  border-top: 1px solid var(--border);
+}
+
+dt {
+  font-weight: bold;
+  color: var(--primary);
+  margin-top: 1em;
+}
+
+dd {
+  margin-left: 1.25em;
+  color: var(--muted-text);
+}
+
+/* Style element 5: footer */
+.site-footer {
+  background-color: var(--navy-700);
+  color: var(--accent-light);
+  text-align: center;
+  padding: 1.5rem 5%;
+  font-size: 0.875rem;
+  border-top: 4px solid var(--accent);
+}
+
+.site-footer p {
+  margin: 0;
+}
