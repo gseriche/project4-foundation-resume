@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8fb3ea"/>
+    </marker>
+  </defs>
+  <rect width="800" height="260" fill="#0a0f1d"/>
+  <g fill="#14213d" stroke="#3b73c9" stroke-width="2">
+    <rect x="30" y="90" width="180" height="80" rx="12"/>
+    <rect x="310" y="35" width="180" height="70" rx="12"/>
+    <rect x="310" y="155" width="180" height="70" rx="12"/>
+    <rect x="590" y="90" width="180" height="80" rx="12"/>
+  </g>
+  <g fill="#f8f9fb" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="120" y="138">Applications</text>
+    <text x="400" y="78">Mimir</text>
+    <text x="400" y="198">Loki</text>
+    <text x="680" y="138">Grafana</text>
+  </g>
+  <g fill="#8fb3ea" font-size="14" text-anchor="middle">
+    <text x="255" y="75">metrics</text>
+    <text x="255" y="200">logs</text>
+  </g>
+  <g stroke="#8fb3ea" stroke-width="3" marker-end="url(#arrow)" fill="none">
+    <path d="M212,115 L305,72"/>
+    <path d="M212,145 L305,190"/>
+    <path d="M492,72 L585,115"/>
+    <path d="M492,190 L585,145"/>
+  </g>
+</svg>

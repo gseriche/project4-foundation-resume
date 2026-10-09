@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8fb3ea"/>
+    </marker>
+  </defs>
+  <rect width="800" height="220" fill="#0a0f1d"/>
+  <g fill="#14213d" stroke="#3b73c9" stroke-width="2">
+    <rect x="30" y="70" width="190" height="80" rx="12"/>
+    <rect x="305" y="70" width="190" height="80" rx="12"/>
+    <rect x="580" y="70" width="190" height="80" rx="12"/>
+  </g>
+  <g fill="#f8f9fb" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="125" y="118">Git repo</text>
+    <text x="400" y="118">ArgoCD</text>
+    <text x="675" y="118">Cluster</text>
+  </g>
+  <g stroke="#8fb3ea" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="222" y1="110" x2="300" y2="110"/>
+    <line x1="497" y1="110" x2="575" y2="110"/>
+  </g>
+  <g fill="#8fb3ea" font-size="14" text-anchor="middle">
+    <text x="261" y="98">detects</text>
+    <text x="536" y="98">applies</text>
+  </g>
+</svg>
